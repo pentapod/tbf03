@@ -1,0 +1,21 @@
+{
+  "name": "tbf03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export -o docs && touch docs/.nojekyll",
+    "start": "next start"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.2.1",
+    "next": "^4.0.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-inlinesvg": "^0.6.2",
+    "react-share": "^1.16.0",
+    "styled-components": "^2.2.1"
+  }
+}
