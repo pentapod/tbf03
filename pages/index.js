@@ -184,7 +184,7 @@ export default class extends React.Component {
                         <th>頒布場所</th>
                         <td>
                           <a href="https://techbookfest.org/event/tbf03">技術書典 3</a><br/>
-                          2017年10月22日(金) 11:00〜17:00
+                          2017年10月22日(日) 11:00〜17:00
                           at <a href="https://www.google.co.jp/maps/place/%E3%82%A2%E3%82%AD%E3%83%90%E3%83%BB%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2/@35.700523,139.7703178,17z/data=!3m1!4b1!4m5!3m4!1s0x60188c1d85c37633:0x2a3129fcbd041f96!8m2!3d35.700523!4d139.7725065">アキバ・スクエア</a><br/>
                           <strong>う-16</strong>&nbsp;
                           <a href={urls.catalog}>
