@@ -27,7 +27,8 @@ const shareText = bodyProps.description + ' ' + bodyProps.url;
 
 const urls = {
   catalog: 'https://techbookfest.org/event/tbf03/circle/5184322684321792',
-  booth: '',
+  booth: 'https://pentapod.booth.pm/items/667201',
+  freeDownload: 'https://tbf03-free-download-ziqpbireui.now.sh',
   twitterShare: 'https://twitter.com/intent/tweet'
     + `?text=${encodeURIComponent(shareText)}`,
   facebookShare: 'https://www.facebook.com/dialog/feed'
@@ -196,9 +197,14 @@ export default class extends React.Component {
                         <th>頒布価格</th>
                         <td>
                           B5冊子版&nbsp;<strong>¥500</strong><br/>
-                          電子版&nbsp;<strong>¥300</strong>&nbsp;<small>BOOTHにて発売予定</small>
-                          {/*<a href={urls.booth} className="btn" {...button.small(globalColors.primary)}>電子版を購入</a>*/}<br/>
-                          冊子版購入者は電子版が<strong>¥0!!!</strong>
+                          電子版&nbsp;<strong>¥300</strong>
+                          <a href={urls.booth}>
+                            <Button small theme={{ color: globalColors.text }}>電子版を購入</Button>
+                          </a><br/>
+                          冊子版購入者は電子版が<strong>¥0!!!</strong><br/>
+                          <a href={urls.freeDownload}>
+                            <Button small theme={{ color: globalColors.text }}>ダウンロードページへ進む</Button>
+                          </a>
                         </td>
                       </tr>
                       <tr>
